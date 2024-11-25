@@ -44,16 +44,18 @@ img {
     display: flex;
     overflow-x: auto;
     gap: 10px;
-    height: 200px
+    
 }
 
 .categoria-videos img {
     opacity: 0.5;
+    height: 200px;
 
 }
 
 .categoria-videos img:hover {
     opacity: 1.0;
+    border: 3px solid green;
 }
 
 
@@ -73,8 +75,9 @@ section {
 }
 
 
+
 .categoria {
-    display: inline-block;
+    display: flow-root;
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 10px;
@@ -82,4 +85,5 @@ section {
 
 .categoria h2 {
     color: rgb(255, 255, 255);
+    
 }
